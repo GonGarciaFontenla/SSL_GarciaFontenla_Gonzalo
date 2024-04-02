@@ -1,6 +1,6 @@
-# TaTeTi (3 en raya) - Simulación en C#
+# TaTeTi (3 en raya) - Simulación en C
 
-Este programa simula el conocido juego "TaTeTi" o "3 en raya" utilizando el lenguaje de programación C#. 
+Este programa simula el conocido juego "TaTeTi" o "3 en raya" utilizando el lenguaje de programación C. 
 
 ## Descripción
 
