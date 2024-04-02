@@ -1,20 +1,28 @@
-Programa en C# que simula el conocido juego *"TaTeTi"* o *"3 en raya"*.
+# TaTeTi (3 en raya) - Simulación en C#
 
-El programa cuenta con una serie de funciones para su correcto funcionamiento.
+Este programa simula el conocido juego "TaTeTi" o "3 en raya" utilizando el lenguaje de programación C#. 
 
-*_BREVE DESCRIPCION, NO TECNICA,  DE LAS FUNCIONES: _*
+## Descripción
 
-.Intro_Primer_Num: Recibe el primer valor que ingresa el usuario. 
+El programa consta de una serie de funciones que son fundamentales para su correcto funcionamiento:
 
-.tablero: Muestra el tablero donde se va a jugar la partida. Se ejecuta varias veces para ir refrescando el tablero a medida que la partida avanza. 
+### Funciones
 
-.Enter_User: Recibe los movimientos del usuario. 
+- **Intro_Primer_Num:** Recibe el primer valor que ingresa el usuario.
+  
+- **tablero:** Muestra el tablero donde se va a jugar la partida. Se ejecuta varias veces para ir refrescando el tablero a medida que la partida avanza.
+  
+- **Enter_User:** Recibe los movimientos del usuario.
+  
+- **Enter_Machine:** Genera al azar los movimientos que hace el rival (la computadora).
+  
+- **ganador:** Determina si la partida finaliza en victoria, derrota o empate.
+  
+- **loop:** A partir de las funciones definidas anteriormente, las ejecuta en un ciclo hasta el final de la partida.
 
-.Enter_Machine: Genera al azar los movimientos que hace el rival (la computadora).
+## Librerías Utilizadas
 
-.ganador: Determina si la partida finaliza en victoria, derrota o empate.
+El programa utiliza las siguientes librerías:
 
-.loop: Apartir de las funciones definidas anteriormente las loopea hasta el final de la partida.
-
-
-El programa utiliza las librerias <time.h> <stdlib.h>.
+- `time.h`
+- `stdlib.h`
